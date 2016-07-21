@@ -1,2 +1,2 @@
-convoy-nfs:
+websocket-chatroom:
   image: registry.aliyuncs.com/mmicoo/websocket-chat-room:latest
