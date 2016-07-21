@@ -1,5 +1,5 @@
-name: demo
+name: websocket-chat-room
 description: |
-  Docker Volume Manager for NFS-backed Volumes
+  websocket-chat-room
 version: v0.4.0
 category: Rancher Services
