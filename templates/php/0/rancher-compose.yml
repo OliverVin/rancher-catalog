@@ -1,0 +1,4 @@
+.catalog:
+    name: "Nginx"
+    version: "v1.9"
+    description: "Nginx"

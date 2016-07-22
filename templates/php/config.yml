@@ -1,0 +1,5 @@
+name: php
+description: |
+  nginx
+version: v0.4.0
+category: nginx
