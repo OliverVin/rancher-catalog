@@ -1,0 +1,5 @@
+name: lnmp
+description: |
+  lnmp， linux + nginx + mysql + php
+version: v0.9.0
+category: server

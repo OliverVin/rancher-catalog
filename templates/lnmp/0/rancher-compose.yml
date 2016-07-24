@@ -1,0 +1,4 @@
+.catalog:
+    name: "LNMP"
+    version: "v0.9"
+    description: "LNMP"
