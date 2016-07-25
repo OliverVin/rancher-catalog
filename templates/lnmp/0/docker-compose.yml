@@ -24,7 +24,7 @@ fpm:
   volumes:
     - /DATA/www/app/src:/usr/share/nginx/html
     # Your php.ini
-    - /DATA/www/php-fpm/php.ini-production:/usr/local/etc/php/php.ini:ro
+    - /DATA/www/php-fpm/php.ini:/usr/local/etc/php/php.ini
   # environment:
     # Set your APP env variables here:
     # - APP_KEY=
