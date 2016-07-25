@@ -8,8 +8,8 @@ nginx:
     # app
     - /DATA/www/app/src:/usr/share/nginx/html
     # nginx configs
-    #- /DATA/www/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
-    #- /DATA/www/nginx/conf.d/:/etc/nginx/conf.d/:ro
+    - /DATA/www/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    - /DATA/www/nginx/conf.d/:/etc/nginx/conf.d/:ro
     # certificates
     #- /DATA/www/nginx/ca/server.crt/:/etc/nginx/server.crt:ro
     #- /DATA/www/nginx/ca/server.key/:/etc/nginx/server.key:ro
