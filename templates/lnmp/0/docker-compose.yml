@@ -14,13 +14,13 @@ nginx:
     #- /DATA/www/nginx/ca/server.crt/:/etc/nginx/server.crt:ro
     #- /DATA/www/nginx/ca/server.key/:/etc/nginx/server.key:ro
   links:
-    - fpm:__DOCKER_PHP_FPM__
+    - fpm
 
 # php-fpm
 fpm:
   image: registry.aliyuncs.com/mmicoo/php:latest
   ports:
-    - "9000:9000"
+    - "9000"
   volumes:
     - /DATA/www/app/src:/usr/share/nginx/html
     # Your php.ini
@@ -33,7 +33,7 @@ fpm:
     # - DB_USERNAME=
     # - DB_PASSWORD=
   links:
-    - mysql:mysql
+    - mysql
 
 # database
 mysql:
