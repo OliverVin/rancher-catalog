@@ -14,7 +14,7 @@ nginx:
     #- /DATA/www/nginx/ca/server.crt/:/etc/nginx/server.crt:ro
     #- /DATA/www/nginx/ca/server.key/:/etc/nginx/server.key:ro
   links:
-    - fpm:__DOCKER_PHP_FPM__
+    - fpm:fpm
 
 # php-fpm
 fpm:
