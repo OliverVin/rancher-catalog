@@ -20,7 +20,7 @@ nginx:
 fpm:
   image: registry.aliyuncs.com/mmicoo/php:latest
   ports:
-    - "9000"
+    - "9000:9000"
   volumes:
     - /DATA/www/app/src:/usr/share/nginx/html
     # Your php.ini
