@@ -1,6 +1,6 @@
 # web server
 lnmp:
-  build: ./lnmp
+  build: lnmp
   ports:
     - "80:80"
     #- "443:443"
