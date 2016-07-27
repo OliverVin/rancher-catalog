@@ -1,6 +1,6 @@
 # web server
 lnmp:
-  build: lnmp
+  build: https://raw.githubusercontent.com/OliverVin/rancher-catalog/master/templates/lnmp_with_conf/0/lnmp/Dockerfile
   ports:
     - "80:80"
     #- "443:443"
