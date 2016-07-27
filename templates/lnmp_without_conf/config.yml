@@ -1,5 +1,5 @@
-name: lnmp
+name: lnmp_without_conf
 description: |
-  lnmp， linux + nginx + mysql + php
+  lnmp， linux + nginx + mysql + php ， without conf
 version: v0.9.0
 category: server
