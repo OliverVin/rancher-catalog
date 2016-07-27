@@ -1,4 +1,4 @@
-name: lnmp
+name: lnmp_with_conf
 description: |
   lnmp， linux + nginx + mysql + php
 version: v0.9.0
